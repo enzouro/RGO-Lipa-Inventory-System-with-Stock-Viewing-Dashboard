@@ -25,16 +25,15 @@ Welcome to the RGO Lipa Inventory System with Stock Viewing Dashboard project. T
 
 #### Products Section
 - Manages product information with add, edit, and delete functions.
-![]()
-#### Stocks Section
-- Allows browsing of product information with functionalities for adding and removing stocks.
 ![Manage](Screenshots/EmployeeProducts.png)
+#### Stocks Section
+- Allows browsing of product information with functionalities for adding and subtracting stocks.
 ![Stocks](Screenshots/EmployeeStocks.png)
 ### 3. Client (Students)
-![Client](Screenshots/Client.png)
+
 #### Stocks Page
 - Enables real-time monitoring of product data, especially stocks.
-
+![Client](Screenshots/Client.png)
 ## Technologies Used
 
 - HTML
