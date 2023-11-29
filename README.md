@@ -55,7 +55,7 @@ Welcome to the RGO Lipa Inventory System with Stock Viewing Dashboard project. T
 
 2. Set up your XAMPP environment with PHPMyAdmin.
 - Create a database named `db_ba3102`
-- Import the database that located inside the [database](database) folder
+- Import the `db_ba3102` database that located inside the [database](database) folder
   
 3. Navigate through your xampp folder.
 - Find the `xampp` folder inside of your local disc.
