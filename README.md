@@ -10,26 +10,28 @@ Welcome to the RGO Lipa Inventory System with Stock Viewing Dashboard project. T
 
 #### Dashboard
 - Provides a summary of key information related to the inventory system.
-
+![Admin Dashboard](Screenshots/AdminDashboard.png)
 #### Products Section
 - Allows browsing and management of product information.
-
+![Products](Screenshots/AdminProducts.png)
+![Products2](Screenshots/AdminProducts2.png)
 #### Transactions Section
 - Displays In and Out transactions of stocks for tracking purposes.
-
+![Transactions](Screenshots/AdminTransactions.png)
 #### User Accounts Section
 - Provides access to user information, including corresponding employee details.
-
+![Users](Screenshots/AdminUsers.png)
 ### 2. Employee
 
 #### Products Section
 - Manages product information with add, edit, and delete functions.
-
+![]()
 #### Stocks Section
 - Allows browsing of product information with functionalities for adding and removing stocks.
-
+![Manage](Screenshots/EmployeeProducts.png)
+![Stocks](Screenshots/EmployeeStocks.png)
 ### 3. Client (Students)
-
+![Client](Screenshots/Client.png)
 #### Stocks Page
 - Enables real-time monitoring of product data, especially stocks.
 
