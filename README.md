@@ -63,7 +63,7 @@ Welcome to the RGO Lipa Inventory System with Stock Viewing Dashboard project. T
 - Find the `xampp` folder inside of your local disc.
 - Find the `htdocs` folder, copy and paste the project inside of it.
 
-4. Got your browser and type [localhost/RGO](http://localhost/RGO/). *make sure that the Apache and MySQl is running in your XAMPP server*
+4. Go to your browser and type [localhost/RGO](http://localhost/RGO/).  *(make sure that the Apache and MySQl is running in your XAMPP server)*
 
 5. Accounts:
 - For admin, the username: `admin` , password: `admRGO`
