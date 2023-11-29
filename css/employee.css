@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* To prevent scrollbar due to the circle */
+  background: linear-gradient(to top, #f74d4d, #b90505); /* Adjusted red background */
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 60px); /* Account for header height */
+  background: linear-gradient(to top, #b90505, #f74d4d); /* Gradient background */
+  position: relative; /* Ensure proper positioning for the divider */
+}
+
+.side {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: xx-large;
+  color: #fff;
+  z-index: 1; /* Ensure buttons are above the circle */
+  overflow: hidden; /* Ensure the hover effect doesn't cover the logo */
+}
+
+.side:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2); /* Highlight color on hover */
+  z-index: 0; /* Ensure hover effect is above the divider */
+}
+
+.side:hover h2 {
+  color: #fff; /* Change text color on hover */
+}
+
+.divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%; /* Position the divider in the center */
+  transform: translateX(-50%);
+  width: 8px; /* Increased thickness */
+  background-color: #e20a0a; /* Red divider color */
+  z-index: 0; /* Ensure divider is behind the circle */
+}
+
+.circle-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 8px solid #e20a0a; /* Increased border thickness */
+  border-radius: 50%;
+  width: 300px; /* Adjust the size of the logo */
+  height: 300px;
+  overflow: hidden; /* Hide the border behind the circle */
+  z-index: 1; /* Ensure the circle is above the divider */
+}
+
+.circle-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  color: #faf9f9; /* Default text color */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+header {
+  display: flex;
+  justify-content: space-between; /* Align the exit button to the right */
+  align-items: center;
+  background-color: transparent; /* Set the header background to transparent */
+  padding: 10px;
+  position: relative;
+  z-index: 4; /* Ensure the button is above other elements */
+}
+
+.exit-btn {
+  padding: 9px;
+  font-size: 24px;
+  max-width: 40px;
+  border: none;
+  background-color: #ff4d4d; /* Red exit button color */
+  color: #fff;
+  border-radius: 40%;
+}
+
+.btnLogout:hover {
+  background-color: #f74141; /* Lighter red on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10%;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+th {
+  background-color: rgb(207, 36, 17); /* Red header for tables */
+  color: #fff;
+}

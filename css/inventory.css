@@ -1,0 +1,170 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    display: flex;
+    
+}
+
+/* Sidebar styles */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 999;
+    overflow-y: auto; /* Allow the sidebar to scroll */
+    background: linear-gradient(to bottom,rgb(104, 0, 0), #ff0000);
+    width: 250px; /* Set sidebar width */
+    padding-top: 20px;
+    transition: width 0.3s ease; /* Smooth transition */
+    
+}
+
+#content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Adjust margin to match sidebar width */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+     /* Make content fill the entire viewport */
+    overflow-y: auto; /* Enable scrolling */
+}
+
+/* Set styles for the icons */
+#sidebar-header {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(211, 20, 20);
+    border-radius: 10%;
+    
+}
+.sidebar-header .logo {
+    max-width: 100px;
+    border-radius: 50%; 
+}
+
+.sidebar-header .h3{
+    margin-top: 0%;
+    color: rgb(209, 203, 203);
+    font-size: 20px;
+}
+.sidebar-btn {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+    font-size: 16px; /* Increase the font size */
+}
+
+/* Add an icon to the left side of the button text */
+.sidebar-btn i {
+    margin-right: 10px; /* Spacing between icon and text */
+}
+
+
+.sidebar-btn:hover {
+    background-color: rgb(214, 16, 16); /* Darker shade of red on hover */
+}
+
+#content {
+    flex: 1;
+    padding: 20px;
+  }
+  #productListSection{ 
+    width: auto;
+
+
+  }
+  
+  /* Product Management Form Styles */
+  #productManagementSection {
+    background-color: #fadada;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #productManagementSection h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #searchInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 20%;
+  }
+  
+  #productForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #productForm input[type="text"],
+  #productForm textarea,
+  #productForm input[type="number"],
+  #productForm input[type="submit"],
+  #productForm input[type="button"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px; /* Adjust the gap between buttons */
+  }
+  
+  #productForm input[type="submit"],
+  #productForm input[type="button"],
+  #productForm input[type="submit"]:hover,
+  #productForm input[type="button"]:hover {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgb(194, 33, 33);
+    color: white;
+  }
+  
+  #productForm input[type="submit"]:hover,
+  #productForm input[type="button"]:hover {
+    background-color: darkred;
+  }
+  .searchProduct{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgb(197, 24, 24);
+    color: white;
+  }
+.searchProduct:hover{
+    background-color: darkred;
+    transition: background-color 0.3s ease;
+}
+  
+.table-container {
+  padding-left: 20px; /* Adjust this value according to your preference */
+}
